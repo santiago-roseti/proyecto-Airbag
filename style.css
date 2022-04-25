@@ -5,28 +5,32 @@
     font-style:oblique;
 }
  .cabecera{
-    background-color: rgb(20, 20, 20);   
+    background-color: rgb(15,15,15);
+    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);
     display: flex ;
     flex-direction: row;
     justify-content:space-between;
+    
 }
-.cabecera_barraNav{
-    display: flex;
-    height: 100%;
-    text-decoration: none;
-    list-style: none;
-    color: white;
-    font-size: larger;  
+    .cabecera_barraNav{
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+      padding: 24px;
+      font-size: 20px;
+}
+.cabecera_barraNav :hover{
+  transform: scale(1.5);
+  transition: all 1.5s;
+  background-color: rgba(136, 0, 0, 0.308);
 }
 .cabecera_barraNav li a{
     color: white;
     text-decoration: none;
+    
 }
- .barraNav{
-     position: relative;
-     padding-top: 24px;
-     margin-right: 120px;
- }
 
 .logo_airbag{
     height: 10vh;
@@ -51,9 +55,9 @@
 .redes{
     position: absolute;
     width: 100%;
-    padding: 30px 0;
-    background-color: rgb(20, 20, 20);
-  }
+    padding: 30px 0;  
+    background-color: rgb(15,15,15);
+    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);  }
   .redes ul{
     list-style: none;
     display: flex;
@@ -170,15 +174,17 @@
 }
 @media screen and (max-width: 320px){
   .cabecera{
-    background-color: rgb(20, 20, 20);   
+    background-color: rgb(15,15,15);
+    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);
     display: flex ;
     flex-direction: row;
     font-size: 6.5px;
 }
-.barraNav{
+.cabecera_barraNav li a{
   position: relative;
   padding-top: 24px;
   margin-right: 10px;
+  font-size: 7.5px;
 }
 .logo_airbag{
   height: 10vh;
