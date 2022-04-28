@@ -1,78 +1,64 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-style:oblique;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
- .cabecera{
+ .header{
     background-color: rgb(15,15,15);
-    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);
-    display: flex ;
-    flex-direction: row;
-    justify-content:space-between;
-    
+    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);   
 }
-    .cabecera_barraNav{
-      list-style: none;
-      display: flex;
-      justify-content: space-evenly;
-      width: 80%;
-      margin: auto;
-      padding: 24px;
-      font-size: 20px;
-}
-.cabecera_barraNav :hover{
-  /* listo para mergear */
-  transform: scale(1.5);
-  transition: all 1.5s;
-  background-color: rgba(136, 0, 0, 0.308);
-}
-.cabecera_barraNav li a{
-    color: white;
-    text-decoration: none;
-    
-}
-
 .logo_airbag{
-    height: 10vh;
-    width: 9vw;
+    height: 60px;
+    width: 110px;
 }
-.main{
-    background-color: rgb(43, 43, 43);
+.nav-link{
+  font-size: 20px;
+  color: white !important; /* uso del important por el color de las letras */
+  margin-left: 100px;
 }
-
-.mainContent{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 400px;
-}
-  .galeria_img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  align-items: center;
+.nav-link:hover{
+  transform: scale(1.5);
+  transition: all 2s;
+  color: rgba(148, 3, 3, 0.466) !important; /* uso del important para que cambie el color de las palabras al seleccionarlas */
 }
 
 .redes{
     position: absolute;
     width: 100%;
+    height: 200px;
     padding: 30px 0;  
     background-color: rgb(15,15,15);
-    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);  }
+    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%); 
+    
+  }
   .redes ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 50%;
     margin: auto;
   }
   .redes a{
     color: white;
   }
+  .container_fluid{
+    list-style: none;
+    background-color: rgb(15,15,15);
+    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);
+  }
+  .integrantes{
+    height: 600px;
+    width: 500px;
+    object-fit: cover;
+    padding-top: 50px;
+  }
+  .main{
+    background-color: rgb(43, 43, 43);
+    color: white;
+  }
   .fa-brands{
     font-size: 50px;
   }
-  .main{ background-color: rgb(32, 32, 32);}
   /* BIOGRAFIA */
   .biografia{
     width: auto;
@@ -89,45 +75,6 @@
   .biografia aside{
     color: white;
   }
-  /* INTEGRANTES */
-.main_Integrantes{
-  padding: 20px 20px;
-  background-color: rgb(32, 32, 32);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-area: 400px;
-}
-.integrantes_texto{
- color: white;
- max-width: 400px;
- margin-right: 250px;
- font-size: 19px;
- padding-top:40px;
- padding-left: 20px;
-}
-.integrantes_texto_patricio{
-  color: white;
-  max-width: 400px;
-  margin-left: 250px;
-  font-size: 16.2px;
-  padding-top:40px;
-  padding-right: 25px;
- }
-.integrantes_img{
-  width: 400px;
-  height: 500px;
-  align-items: center;
-  margin-left: 250px;
-  padding-top:40px;
-  object-fit: cover;
-}
-.integrantes_img_patricio{
-  width: 400px;
-  height: 570px;
-  align-items: center;
-  margin-right: 250px;
-  padding-top:40px;
-}
 
 .tabla{
  margin-left: 20px;
