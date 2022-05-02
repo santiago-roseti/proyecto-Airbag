@@ -47,7 +47,7 @@
   }
   .integrantes{
     height: 600px;
-    width: 500px;
+    width: 100%;
     object-fit: cover;
     padding-top: 50px;
   }
@@ -61,7 +61,7 @@
   .img-airbag{
     margin-top: 100px;
     height: 500px;
-    width: 650px;
+    width: 100%;
     padding-bottom: 20px;
   }
 .textO{
@@ -69,7 +69,7 @@
   padding-top: 20px;
 }
   .mb-3{
-    width: 500px;
+    width: 315px;
     background-color: rgba(148, 3, 3, 0.466);
     border-radius: 5px;
   }
@@ -101,49 +101,4 @@
 .formulario{
   width: 500px;
   margin-top: 60px;
-}
-@media screen and (max-width: 320px){
-  .cabecera{
-    background-color: rgb(15,15,15);
-    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);
-    display: flex ;
-    flex-direction: row;
-    font-size: 6.5px;
-}
-.cabecera_barraNav li a{
-  position: relative;
-  padding-top: 24px;
-  margin-right: 10px;
-  font-size: 7.5px;
-}
-.logo_airbag{
-  height: 10vh;
-  width: 15vw;
-}
-.fa-brands{
-  font-size: 25px;
-  margin-right: 17px;
-}
-.integrantes_texto{
-  color: white;
-  max-width: 170px;
-  font-size: 10px;
- }
- .integrantes_texto_patricio{
-   color: white;
-   font-size: 9px;
-   margin: 0;
-   max-width: 170px;
-  }
- .integrantes_img{
-   width: 160px;
-   height: 400px;
-   object-fit: cover;
-   margin: 0;
- }
- .integrantes_img_patricio{
-   width: 140px;
-   height: 250px;
-   object-fit: cover;
- }
 }
