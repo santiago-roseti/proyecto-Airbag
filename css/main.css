@@ -1,3 +1,124 @@
+/* MAP */
+/* EXTEND */
+.nav-link:hover, .h4 .email:hover {
+  transform: scale(1.5);
+  transition: all 2s;
+  color: rgba(148, 3, 3, 0.466) !important; }
+
+/* MIXIN */
+.header {
+  background-color: #2b2b2b;
+  background-image: linear-gradient(114deg, #0f0f0f 0%, #282828 50%, #656565 100%); }
+
+.logo_airbag {
+  height: 60px;
+  width: 110px; }
+
+.nav-link {
+  font-size: 24px;
+  color: white !important;
+  /* uso del important por el color de las letras */
+  margin-left: 100px; }
+
+.carousel-item {
+  width: 100%;
+  height: 100%; }
+
+footer {
+  background-color: #0f0f0f;
+  background-image: linear-gradient(114deg, #0f0f0f 0%, #282828 50%, #656565 100%);
+  width: 100%;
+  height: 15vh; }
+  footer .fa-brands {
+    color: #f0f8ff;
+    padding: 0 40px;
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    font-size: 40px; }
+
+@media screen and (max-width: 768px) {
+  footer {
+    background-color: #0f0f0f;
+    background-image: linear-gradient(114deg, #0f0f0f 0%, #282828 50%, #656565 100%);
+    width: 100%;
+    height: 28vh; } }
+
 .main {
-  background-color: blue;
-  color: #2b2b2b; }
+  background-color: #2b2b2b;
+  color: white; }
+  .main .container_fluid {
+    list-style: none;
+    background-color: #2b2b2b; }
+  .main .img-airbag {
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+    object-fit: contain; }
+  .main .textO {
+    padding-left: 20px;
+    font-size: 12px; }
+  .main .titulo {
+    font-size: 36px;
+    text-align: center; }
+
+.main {
+  background-color: #2b2b2b;
+  color: white; }
+  .main .integrantes {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    padding: 30px; }
+    .main .integrantes .textO {
+      padding-left: 20px;
+      font-size: 12px; }
+    .main .integrantes .titulo {
+      font-size: 36px;
+      text-align: center; }
+
+.main-tabla {
+  background-color: #2b2b2b;
+  color: white;
+  text-align: center; }
+  .main-tabla .miniatura {
+    height: 50px;
+    width: 50px; }
+
+.table {
+  margin-bottom: 0; }
+
+.main h1 {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px; }
+
+h3 {
+  color: white;
+  font-size: 24px;
+  text-align: start;
+  text-decoration: none;
+  padding-left: 20px; }
+
+.formulario {
+  width: 500px;
+  margin-top: 60px;
+  margin-left: 20px; }
+  .formulario .mb-3 {
+    width: 315px;
+    background-color: rgba(148, 3, 3, 0.466);
+    border-radius: 5px; }
+  .formulario .form-label {
+    font-size: 18px;
+    margin-left: 13px; }
+  .formulario .btn {
+    color: white;
+    background-color: rgba(148, 3, 3, 0.466); }
+
+.h4 {
+  margin-bottom: 0;
+  padding: 15px; }
+  .h4 .email {
+    color: white; }

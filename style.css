@@ -7,6 +7,9 @@
     background-color: rgb(15,15,15);
     background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);   
 }
+.col{
+  color: white;
+}
 .logo_airbag{
     height: 60px;
     width: 110px;
@@ -21,53 +24,44 @@
   transition: all 2s;
   color: rgba(148, 3, 3, 0.466) !important; /* uso del important para que cambie el color de las palabras al seleccionarlas */
 }
-
-.redes{
-    position: absolute;
-    width: 100%;
-    height: 200px;
-    padding: 30px 0;  
-    background-color: rgb(15,15,15);
-    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);
-  }
-  .redes ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: auto;
-  }
-  .redes a{
-    color: white;
-  }
-  .container_fluid{
-    list-style: none;
-    background-color: rgb(15,15,15);
-    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);
-  }
+footer {
+  background-color: rgb(15,15,15);
+  background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);   
+  width: 100%;
+  height: 15vh; 
+}
+.fa-brands {
+  color: #f0f8ff;
+  padding: 0 40px;
+  font-size: 30px;
+  position: relative;
+  left: 10px; 
+  font-size: 40px;
+}
   .integrantes{
     height: 600px;
     width: 100%;
     object-fit: cover;
     padding-top: 50px;
   }
-  .main{
+  .main-tabla{
     background-color: rgb(43, 43, 43);
     color: white;
+    text-align: center;
   }
-  .fa-brands{
-    font-size: 50px;
-  }
+ .table{
+   margin-bottom: 0;
+ }
+ .miniatura{
+   height: 50px;
+   width: 50px;
+ }
   .img-airbag{
     margin-top: 100px;
     height: 500px;
     width: 100%;
     padding-bottom: 20px;
   }
-.textO{
-  padding-left: 20px;
-  padding-top: 20px;
-}
   .mb-3{
     width: 315px;
     background-color: rgba(148, 3, 3, 0.466);
@@ -89,8 +83,8 @@
     padding: 15px;
   }
   .email:hover{
-    transform:scale(1.2) ;
-    transition: all 1.5s;
+    transform:scale(1.5) ;
+    transition: all 2s;
     color: rgba(148, 3, 3, 0.466);
   }
 .main h1{
@@ -101,4 +95,13 @@
 .formulario{
   width: 500px;
   margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    background-color: rgb(15,15,15);
+    background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);   
+    width: 100%;
+    height: 28vh; 
+}
 }
