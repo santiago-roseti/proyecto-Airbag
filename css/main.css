@@ -34,8 +34,7 @@ footer {
     padding: 0 40px;
     font-size: 30px;
     position: relative;
-    left: 10px;
-    font-size: 40px; }
+    left: 10px; }
 
 @media screen and (max-width: 768px) {
   footer {
@@ -43,6 +42,18 @@ footer {
     background-image: linear-gradient(114deg, #0f0f0f 0%, #282828 50%, #656565 100%);
     width: 100%;
     height: 28vh; } }
+
+@media screen and (max-width: 350px) {
+  footer {
+    background-color: #0f0f0f;
+    background-image: linear-gradient(114deg, #0f0f0f 0%, #282828 50%, #656565 100%);
+    width: 100%;
+    height: 50vh; }
+    footer .fa-brands {
+      color: #f0f8ff;
+      font-size: 30px;
+      position: relative;
+      padding: 0 20px; } }
 
 .main {
   background-color: #2b2b2b;
