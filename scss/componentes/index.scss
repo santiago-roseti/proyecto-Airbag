@@ -18,14 +18,21 @@
   width: 100%;
   height: 100%;
 }
-    footer {
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: $background;
+}
+    footer{
         background-color: rgb(15,15,15);
         background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);   
         width: 100%;
-        height: 15vh; 
+        margin-top: auto; 
                     .fa-brands {
                       color: #f0f8ff;
-                      padding: 0 40px;
+                      padding: 20px 40px 20px;
                       font-size: 30px;
                       position: relative;
                       left: 10px; 
@@ -39,20 +46,20 @@
           height: 28vh; 
       }
       }
-
       @media screen and (max-width: 350px) {
+        body{
+          display: flex;
+          flex-direction: column;
+        }
         footer {
           background-color: rgb(15,15,15);
           background-image: linear-gradient(114deg, rgba(15,15,15,1) 0%, rgba(40,40,40,1) 50%, rgba(101,101,101,1) 100%);   
           width: 100%;
-          height: 50vh; 
       .fa-brands {
         color: #f0f8ff;
         font-size: 30px;
         position: relative;
         padding: 0 20px;
-
       }
-    }
-      
+    } 
 }

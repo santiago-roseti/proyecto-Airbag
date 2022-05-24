@@ -24,14 +24,21 @@
   width: 100%;
   height: 100%; }
 
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2b2b2b; }
+
 footer {
   background-color: #0f0f0f;
   background-image: linear-gradient(114deg, #0f0f0f 0%, #282828 50%, #656565 100%);
   width: 100%;
-  height: 15vh; }
+  margin-top: auto; }
   footer .fa-brands {
     color: #f0f8ff;
-    padding: 0 40px;
+    padding: 20px 40px 20px;
     font-size: 30px;
     position: relative;
     left: 10px; }
@@ -44,11 +51,13 @@ footer {
     height: 28vh; } }
 
 @media screen and (max-width: 350px) {
+  body {
+    display: flex;
+    flex-direction: column; }
   footer {
     background-color: #0f0f0f;
     background-image: linear-gradient(114deg, #0f0f0f 0%, #282828 50%, #656565 100%);
-    width: 100%;
-    height: 50vh; }
+    width: 100%; }
     footer .fa-brands {
       color: #f0f8ff;
       font-size: 30px;
@@ -114,13 +123,17 @@ h3 {
   padding-left: 20px; }
 
 .formulario {
-  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
   margin-top: 60px;
-  margin-left: 20px; }
+  margin-left: 15px; }
   .formulario .mb-3 {
-    width: 315px;
+    width: 350px;
     background-color: rgba(148, 3, 3, 0.466);
-    border-radius: 5px; }
+    border-radius: 5px;
+    padding-right: 0 !important; }
   .formulario .form-label {
     font-size: 18px;
     margin-left: 13px; }
@@ -133,3 +146,14 @@ h3 {
   padding: 15px; }
   .h4 .email {
     color: white; }
+
+@media screen and (max-width: 350px) {
+  .formulario {
+    width: 320px;
+    margin-top: 60px;
+    margin-left: 15px; }
+  .mb-3 {
+    width: 320px;
+    background-color: rgba(148, 3, 3, 0.466);
+    border-radius: 5px;
+    margin-right: 0 !important; } }
