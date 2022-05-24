@@ -41,14 +41,14 @@ h3{
         } 
 }
  
-@media screen and (max-width:450px){
+@media screen and (max-width:320px){
     .formulario{
-        width: 350px;
+        width: 300px;
         margin-top: 60px;
         margin-left: 15px;
     }
     .mb-3{
-        width: 350px;
+        width: 300px;
         background-color: $bg-form;
         border-radius: 5px;
         margin-right: 0 !important;
